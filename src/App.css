@@ -1,51 +1,49 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Nunito", sans-serif;
-  }
-  
-  body {
-    background: lightblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Set the height of the body to the full viewport height */
-  }
-  
-  main {
-    
-    max-width: 800px;
-    padding: 20px;
-    text-align: center; /* Center the content horizontally */
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow */
-  }
-  
-  .login__register a {
-    text-decoration: none;
-    color: inherit;
-    margin: 0 10px;
-  }
-  
-  input {
-    display: block;
-    margin-bottom: 5px;
-    width: 100%;
-    padding: 5px 7px;
-    background-color: #fff;
-    border: 2px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  button {
-    width: 100%;
-    display: block;
-    background-color: #333;
-    color: #fff;
-    border: 0;
-    padding: 8px 0;
-    border-radius: 5px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height of the body to the full viewport height */
+}
+
+main {
+  max-width: 800px;
+  padding: 20px;
+  text-align: center; /* Center the content horizontally */
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow */
+}
+
+.login__register a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0 10px;
+}
+
+input {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 5px 7px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  display: block;
+  background-color: #333;
+  color: #fff;
+  border: 0;
+  padding: 8px 0;
+  border-radius: 5px;
+}
